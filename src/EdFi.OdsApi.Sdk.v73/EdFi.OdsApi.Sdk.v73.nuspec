@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>EdNexusData.EdFi.OdsApi.Sdk.v73</id>
+    <version>1.0.0</version>
+    <title>EdNexusData.EdFi.OdsApi.Sdk.v73</title>
+    <authors>Makoa Jacobsen</authors>
+    <owners>Education Nexus</owners>
+    <description>EdFi OdsApi SDK with base types</description>
+    <readme>README.md</readme>
+    <repository type="git" url="https://github.com/ednexusdata/edfi-odsapi-sdk-v73" commit="$commit$" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies> 
+  </metadata>
+  <files>
+    <file src="bin\Release\net8.0\EdFi.OdsApi.Sdk.v73.dll" target="lib\net8.0\" />
+    <file src="README.md" target="" />
+  </files>
+</package>

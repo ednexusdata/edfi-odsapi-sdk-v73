@@ -1,36 +1,19 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo><!-- setting GenerateAssemblyInfo to false causes this bug https://github.com/dotnet/project-system/issues/3934 -->
-    <TargetFramework>net8.0</TargetFramework>
-    <AssemblyName>EdFi.OdsApi.Sdk.v73</AssemblyName>
-    <PackageId>EdFi.OdsApi.Sdk.v73</PackageId>
-    <OutputType>Library</OutputType>
-    <Authors>OpenAPI</Authors>
-    <Company>OpenAPI</Company>
-    <AssemblyTitle>OpenAPI Library</AssemblyTitle>
-    <Description>A library generated from a OpenAPI doc</Description>
-    <Copyright>No Copyright</Copyright>
-    <RootNamespace>EdFi.OdsApi.Sdk.v73</RootNamespace>
-    <Version>1.0.2</Version>
-    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\EdFi.OdsApi.Sdk.v73.xml</DocumentationFile>
-    <RepositoryUrl>https://github.com/ednexusdata/edfi-odsapi-sdk-v73.git</RepositoryUrl>
-    <RepositoryType>git</RepositoryType>
-    <PackageReleaseNotes>Minor update</PackageReleaseNotes>
-    <Nullable>annotations</Nullable>
-    <ManagePackageVersionsCentrally>false</ManagePackageVersionsCentrally>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
-  </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="JsonSubTypes" Version="2.0.1" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-    <PackageReference Include="RestSharp" Version="112.0.0" />
-    <PackageReference Include="Polly" Version="8.1.0" />
-  </ItemGroup>
-  
-  <ItemGroup>
-    <None Include="obj\Release\net8.0\EdFi.OdsApi.Sdk.v73.dll" Pack="true" PackagePath="lib\net8.0\" />
-    <None Include="README.md" Pack="true" PackagePath="" />
-  </ItemGroup>
-</Project>
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>EdNexusData.EdFi.OdsApi.Sdk.v73</id>
+    <version>1.0.2</version>
+    <title>EdNexusData.EdFi.OdsApi.Sdk.v73</title>
+    <authors>Makoa Jacobsen</authors>
+    <owners>Education Nexus</owners>
+    <description>EdFi OdsApi SDK with base types</description>
+    <repository type="git" url="https://github.com/ednexusdata/edfi-odsapi-sdk-v73" commit="$commit$" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\net8.0\EdFi.OdsApi.Sdk.v73.dll" target="lib\net8.0\" />
+    <file src="README.md" target="" />
+  </files>
+</package>

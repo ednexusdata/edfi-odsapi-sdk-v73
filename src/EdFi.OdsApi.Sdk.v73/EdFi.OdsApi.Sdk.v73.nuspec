@@ -19,6 +19,7 @@
     <PackageReleaseNotes>Minor update</PackageReleaseNotes>
     <Nullable>annotations</Nullable>
     <ManagePackageVersionsCentrally>false</ManagePackageVersionsCentrally>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -27,7 +28,7 @@
     <PackageReference Include="RestSharp" Version="112.0.0" />
     <PackageReference Include="Polly" Version="8.1.0" />
   </ItemGroup>
-
+  
   <ItemGroup>
     <None Include="obj\Release\net8.0\EdFi.OdsApi.Sdk.v73.dll" Pack="true" PackagePath="lib\net8.0\" />
     <None Include="README.md" Pack="true" PackagePath="" />
